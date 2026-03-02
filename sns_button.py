@@ -130,7 +130,7 @@ class SNSButtonView(ui.View):
         self.config = config
         self.recipients = recipients
         self.name = 'SNS Notification'
-        self.background_color = '#1a1a2e'
+        self.background_color = "#a8a8f8"
         
         # Create title label
         self.title_label = ui.Label()
