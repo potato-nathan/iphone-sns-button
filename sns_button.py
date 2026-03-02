@@ -153,7 +153,7 @@ class SNSButtonView(ui.View):
         self.send_button.title = self.config['BUTTON_NAME']
         self.send_button.font = ('<system-bold>', 22)
         self.send_button.tint_color = 'white'
-        self.send_button.background_color = '#0f4c75'
+        self.send_button.background_color = "#b60000"
         self.send_button.corner_radius = 15
         self.send_button.action = self.button_tapped
         self.add_subview(self.send_button)
